@@ -1,8 +1,9 @@
 import React from 'react'
 
+
+
 function Review() {
   return (
-    <>
     <section>
         <ul class="container1">
 <li class="menu1">
@@ -24,7 +25,7 @@ function Review() {
         </li>
     </ul></section>
     
-    </>
+    
   )
 }
 
