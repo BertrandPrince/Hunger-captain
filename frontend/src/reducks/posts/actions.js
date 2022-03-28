@@ -12,10 +12,20 @@ export const fetchPostsAction = posts => {
         payload: { posts }
     };
 };
-export const DELETE_POST = 'DELETE_POST';
-export const deletePostAction = postId => {
+
+export const DELETE_POST = "DELETE_POST";
+export const deletePostAction = (posts) => {
     return {
-        type: DELETE_POST,
-        payload: { postId }
-    };
-};
+        type: "DELETE_POST",
+        payload: posts
+    }
+}
+
+
+// export const DELETE_POST = 'DELETE_POST';
+// export const deletePostAction = postId => {
+//     return {
+//         type: DELETE_POST,
+//         payload: { postId }
+//     };
+// };

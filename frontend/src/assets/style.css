@@ -203,6 +203,31 @@ p.copyrights {
 }
 
 
+/****************************
+* Home
+*****************************/
+.home .main-visual img {
+    width: 100%;
+  }
+  
+  .home .main-visual img {
+    width: 100%;
+  }
+  .content .popular-recipes p {
+    color: #a80e0e;
+    font-family: "Avengeance Mightiest Avenger";
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 0px;
+  }
+  .content .popular-recipes img {
+    padding: 0px 0px 10px 0px;
+    width: 100%;
+  }
+  
+
+
 /* Writereview */
 
 section.gradient {

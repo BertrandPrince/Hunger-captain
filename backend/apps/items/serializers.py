@@ -10,4 +10,12 @@ class ItemSerializer(serializers.ModelSerializer):
     class Meta:
         model = Item
         fields = '__all__'
+
+    def get_total_like_count(self, obj):
+        reviews = Review.objects.filter(item_id=obj.id)
+        total_like_count = 0
+        for review in reviews:
+            total_like_count += review.like_count
+        return total_like_count
+
    

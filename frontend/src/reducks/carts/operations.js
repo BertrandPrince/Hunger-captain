@@ -18,7 +18,7 @@ export const fetchFromLocalStorage = () => {
     }
 }
 
-export const adddCart = (item) => {
+export const addCart = (item) => {
     return async (dispatch, getState) => {
         let prevCarts = getState().carts.list
         prevCarts[item.id]={item:item, selected_count:1};
