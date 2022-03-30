@@ -7,7 +7,7 @@ if (process.env.REACT_APP_ENVIRONMENT && process.env.REACT_APP_ENVIRONMENT === "
    baseURL = "http://127.0.0.1:8000";
 }
 
-// baseURL = "http://127.0.0.1:8000";
+// baseURL = 'https://foodvalley-backend.herokuapp.com/';
 
 const api = axios.create({
   baseURL: baseURL,
@@ -15,7 +15,6 @@ const api = axios.create({
     "Content-Type": "application/json",
   },
 });
-
 
 export default class API {
     ////////////////////////////////
@@ -58,7 +57,7 @@ export default class API {
             })
         return response
     }
-////////////////////////////////
+    ////////////////////////////////
     // Item
     ////////////////////////////////
     getItems = async (category) => {
@@ -76,7 +75,7 @@ export default class API {
             })
         return items
     }
-////////////////////////////////
+    ////////////////////////////////
     // Review
     ////////////////////////////////
     getReviews = async (item_id) => {
@@ -91,7 +90,6 @@ export default class API {
             })
         return reviews
     }
-
     writeReview = async (item_id, name, body, like_count) => {
         const formData = new FormData();
         formData.append("item", item_id);
@@ -110,4 +108,3 @@ export default class API {
  
     }
 }
-  

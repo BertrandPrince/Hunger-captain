@@ -1,6 +1,6 @@
 from .models import Item
 from rest_framework import serializers
-from apps.review.models import Review
+from apps.reviews.models import Review
 
 
 class ItemSerializer(serializers.ModelSerializer):
@@ -17,5 +17,3 @@ class ItemSerializer(serializers.ModelSerializer):
         for review in reviews:
             total_like_count += review.like_count
         return total_like_count
-
-   

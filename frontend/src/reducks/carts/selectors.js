@@ -11,4 +11,3 @@ export const getSubtotal = createSelector(
     [cartsSelector],
     state => state.subtotal
 );
-

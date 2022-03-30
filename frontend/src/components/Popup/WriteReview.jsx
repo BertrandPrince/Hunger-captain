@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ImgIconCross from "../../assets/img/cross.png";
+import ImgIconCross from "../../assets/img/cross.svg";
 import ImgReaction0 from "../../assets/img/reaction0.svg";
 import ImgReaction1 from "../../assets/img/reaction1.svg";
 import ImgReaction2 from "../../assets/img/reaction2.svg";

@@ -1,22 +1,26 @@
-import React from 'react'
-import logo from  "../../assets/img/logo-Hunger.png"
-import mainBanner from "../../assets/img/background.png"
-import whiteLine from "../../assets/img/whiteline.png"
+import React from "react";
+import logo from "../../assets/img/Logoo.svg";
+import Mainbanner from '../../assets/img/background.png';
+import whitebanner from '../../assets/img/white-banner.svg';
 
-
-
-function Header() {
+const Header = () => {
   return (
     <>
-<img class="backgroundimg" src={mainBanner} alt="" />
-    <img class="whitebg" src={whiteLine} alt="" />
-    <img class="logo" src={logo} alt="" />
-    <p class="text">
-      Good Food is <br />The Foundation of<br /><span class="happiness"
-        >GENUINE HAPPINESS</span>
-    </p>
-    </>
-  )
-}
+      <header>
+        <img src={Mainbanner} alt="" />
+        <img className="white-border" src={whitebanner} alt="" />
+      </header>
+      <section className="logo">
+        <img src={logo} alt="" />
+      </section>
+      <section className="text">
+        <p>
+          Good food is <br /> The Foundation of <br />{" "}
+          <span>GENUINE HAPPINESS</span>
+        </p>
+      </section>
+      </>
+  );
+};
 
-export default Header
+export default Header;

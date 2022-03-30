@@ -3,7 +3,7 @@ import ImgReaction1 from "../../assets/img/reaction1.svg";
 import ImgReaction2 from "../../assets/img/reaction2.svg";
 import ImgReaction3 from "../../assets/img/reaction3.svg";
 import ImgReaction0 from "../../assets/img/reaction0.svg";
-import ImgIconCross from "../../assets/img/cross.png";
+import ImgIconCross from "../../assets/img/cross.svg";
 import API from "../../API";
 
 const api = new API();

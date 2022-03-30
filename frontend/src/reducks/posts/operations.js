@@ -14,7 +14,6 @@ export const fetchPosts = () => {
     }
 }
 
-
 export const deletePost = (id) => {
     return async (dispatch, getState) => {
         return api.deletePost(id)
@@ -28,7 +27,6 @@ export const deletePost = (id) => {
             })
    }
 }
-
 
 export const addPost = (name, body, image) => {
     return async (dispatch, getState) => {

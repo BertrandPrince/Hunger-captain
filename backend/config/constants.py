@@ -1,5 +1,6 @@
-import os 
+import os
 import pytz
+
 ##############################
 # Config
 ##############################
@@ -12,10 +13,8 @@ STATUS = (
 STATUS_DICT = dict(STATUS)
 
 CATEGORIES = (
-    ('All', 'All'),
-    ('Main Dishes', 'Main Dishes'),
-    ('Kids Menus', 'Kids Menus'),
-    ('Hot Baguette', 'Hot Baguette'),
-    ('Burger Bar', 'Burger Bar'),
+    ('hot', 'Hot'),
+    ('cold', 'Cold'),
+    ('bagel', 'Bagel'),
 )
 CATEGORIES_DICT = dict(CATEGORIES)
