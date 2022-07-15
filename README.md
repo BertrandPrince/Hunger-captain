@@ -12,7 +12,7 @@ Check out [API LIVE DEMO](https://backend-prince.herokuapp.com/) here!!
 ## How to Install
 1. Git Clone
 ```
-git clone https://github.com/BertrandPrince/Hunger-captian 
+git clone https://github.com/BertrandPrince/Hunger-captian.git
 ```
 2. Backend setting
 ```
