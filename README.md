@@ -1,6 +1,6 @@
-# Hunger Captain
+# Hunger Captian
 ```
-Hunger Captain , with a frontend built in React & Redux and a backend built in Django API.
+Hunger Captian , with a frontend built in React & Redux and a backend built in Django API.
 ```
 Check out [FRONTEND LIVE DEMO](https://frontend-prince.herokuapp.com/) here!!
 Check out [API LIVE DEMO](https://backend-prince.herokuapp.com/) here!!
@@ -12,7 +12,7 @@ Check out [API LIVE DEMO](https://backend-prince.herokuapp.com/) here!!
 ## How to Install
 1. Git Clone
 ```
-git clone https://github.com/Akshaytechis/cafemenu-akshay.git
+git clone https://github.com/BertrandPrince/Hunger-captian 
 ```
 2. Backend setting
 ```
